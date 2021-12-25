@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutterexample/loginpage.dart';
+import 'package:flutterexample/person_listview.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const LoginPage(),
+          primarySwatch: Colors.blue,
+          visualDensity: VisualDensity.adaptivePlatformDensity),
+      home: const PersonListPage(),
     );
   }
 }

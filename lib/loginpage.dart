@@ -31,19 +31,7 @@ class _LoginPageState extends State<LoginPage> {
                 const SizedBox(
                   height: 80,
                 ),
-                // const Center(
-                //   child: Text(
-                //     "Login",
-                //     style: TextStyle(
-                //       color: Colors.black,
-                //       fontSize: 22,
-                //       fontWeight: FontWeight.w600,
-                //     ),
-                //   ),
-                // ),
-                // const SizedBox(
-                //   height: 20,
-                // ),
+                
                 FadeInUp(
                   child: Padding(
                     padding: const EdgeInsets.only(right: 30),
